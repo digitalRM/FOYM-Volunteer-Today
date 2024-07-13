@@ -1,12 +1,12 @@
-![The Template](https://github.com/digitalRM/FOYM-Template/assets/70782025/a7711b85-544e-4cd2-93cf-86ba294b9d02)
+![Volunteer Today)](https://github.com/user-attachments/assets/bd282059-9076-49aa-a7ee-3425b7bdf926)
 
-Template Series - Name #
+Template Series - Volunteer Today #4
 ---
-This is a base Next.JS build preloaded with Shadcn/UI and a file structure system used for FOYM templates.
+This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” It is entirely free to use and customize. Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.
 
-![Website Image](https://github.com/digitalRM/FOYM-Template/assets/70782025/95559860-79e0-4033-b128-585cdd2465d1)
+![Website Image](https://github.com/user-attachments/assets/a9255895-d9fc-4477-9cf7-0deffa9468b6)
 
-Personal Note - Ruslan
+This is the fourth fully open-source template we have created. This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” It features a bento hero section, a double stacked informational section, and a call-to-action card. - Ruslan
 
 Getting Started
 ---
@@ -24,7 +24,7 @@ To get a local copy up and running, follow these steps:
 Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/digitalRM/FOYM-Volunteer-Today.git
 ```
 
 Install required packages
@@ -35,13 +35,17 @@ npm install
 
 Customize the entire website across all the sections inside the `components/sections` folder
 ```js
-
-
+1 - Hero.jsx
+2 - InfoSection.jsx
+3 - CallToAction.jsx
+4 - Footer.jsx
 ```
 
 There are also important files to edit in the `components/ui` folder. They are all marked with 1 in the front. 
 ```js
-
+1 - contact-dialog.jsx
+1 - header.jsx
+1 - mobile-drawer.jsx
 ```
 
 Delete Banner in `app/layout.js`
@@ -62,22 +66,22 @@ Customize your metadata in `app/layout.js`
 ```js
 // This is the metadata for the website. Change the values to match your website. Upload the openGraph.png to your public folder
 export const metadata = {
-  metadataBase: new URL(''),
-  title: " - An FOYM Template",
-  description: "",
+  metadataBase: new URL('https://www.foym.org/'),
+  title: "Volunteer Today - An FOYM Template",
+  description: "This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.",
   openGraph: {
-    title: " - An FOYM Template",
+    title: "Volunteer Today - An FOYM Template",
     description: "",
-    url: '',
-    siteName: ' - An FOYM Template',
-    // images: [
-    //   {
-    //     url: '/openGraph.png',
-    //     width: 1600,
-    //     height: 900,
-    //     alt: 'An image on the the website\s name "Template - FOYM" and star like characters in the background pointing at the name',
-    //   },
-    // ], 
+    url: 'This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.',
+    siteName: 'Volunteer Today - An FOYM Template',
+    images: [
+      {
+        url: '/openGraph.png',
+        width: 1600,
+        height: 900,
+        alt: 'An image of the website\s name "Volunteer Today - An FOYM. Template" and star like characters in the background pointing at the name',
+      },
+    ], 
     locale: 'en_US',
     type: 'website',
   },
