@@ -8,13 +8,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 // This is the metadata for the website. Change the values to match your website. Upload the openGraph.png to your public folder
 export const metadata = {
-  metadataBase: new URL('https://www.foym.org/'),
+  metadataBase: new URL('https://volunteer.foym.org/'),
   title: "Volunteer Today - An FOYM Template",
   description: "This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.",
   openGraph: {
     title: "Volunteer Today - An FOYM Template",
-    description: "",
-    url: 'This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.',
+    description: "This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.",
+    url: 'https://volunteer.foym.org/',
     siteName: 'Volunteer Today - An FOYM Template',
     images: [
       {
