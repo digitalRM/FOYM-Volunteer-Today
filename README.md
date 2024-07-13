@@ -4,7 +4,7 @@ Template Series - Volunteer Today #4
 ---
 This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” It is entirely free to use and customize. Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.
 
-![Website Image](https://github.com/user-attachments/assets/a9255895-d9fc-4477-9cf7-0deffa9468b6)
+![Website Image](https://github.com/user-attachments/assets/dfab6d9b-ff19-4eda-a42d-0a22636890ac)
 
 This is the fourth fully open-source template we have created. This is a template for organizations modeled after a made-up volunteering nonprofit called “Volunteer Today.” It features a bento hero section, a double stacked informational section, and a call-to-action card. - Ruslan
 
