@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function InfoSectionOne() {
@@ -13,15 +14,15 @@ export default function InfoSectionOne() {
         </div>
 
         <div className='relative pb-12 lg:pb-0 aspect-[14/9] '>
-          <img src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="volunteers" className="object-cover w-full h-full rounded-3xl grayscale border-4 absolute -rotate-6 opacity-30 aspect-video" />
-          <img src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="volunteers" className="w-full h-full rounded-3xl border-4 absolute mb-2 aspect-video" />
+          <Image src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5" width={514} height={322} alt="volunteers" className="object-cover w-full h-full rounded-3xl grayscale border-4 absolute -rotate-6 opacity-30 aspect-video" />
+          <Image src="https://images.unsplash.com/photo-1618477461853-cf6ed80faba5" width={514} height={322} alt="volunteers" className="w-full h-full rounded-3xl border-4 absolute mb-2 aspect-video" />
 
         </div>
 
         <div className='flex flex-col-reverse lg:flex-row lg:col-span-2 lg:gap-12'>
           <div className='relative pb-12 lg:pb-0 mt-12 lg:mt-28 aspect-[14/9] flex-1'>
-            <img src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="volunteers" className="object-cover w-full h-full rounded-3xl grayscale border-4 absolute -rotate-6 opacity-30 aspect-video" />
-            <img src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="volunteers" className="object-cover w-full h-full rounded-3xl border-4 absolute mb-2 aspect-video" />
+            <Image src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce" width={514} height={322} alt="volunteers" className="object-cover w-full h-full rounded-3xl grayscale border-4 absolute -rotate-6 opacity-30 aspect-video" />
+            <Image src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce" width={514} height={322} alt="volunteers" className="object-cover w-full h-full rounded-3xl border-4 absolute mb-2 aspect-video" />
           </div>
 
           <div className="flex flex-col gap-6 mt-24 flex-1">

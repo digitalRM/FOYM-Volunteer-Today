@@ -12,14 +12,14 @@ export default function Header() {
     <header className="relative overflow-hidden h-fit w-full text-black">
       <nav className="flex justify-between items-center max-w-[1040px] w-full sm:py-4 mx-auto">
         <a href="/" className="text-2xl font-semibold tracking-tighter">Volunteer Today</a>
-        <ul className="md:flex justify-between items-center gap-6 hidden">
+        <div className="md:flex justify-between items-center gap-6 hidden">
           {links.map(({ href, label }) => (
-            <li key={`${href}${label}`}>
+            <div key={`${href}${label}`}>
               <a className='tracking-tight text-neutral-600 font-medium' href={href}>{label}</a>
-            </li>
+            </div>
           ))}
           <ContactDialog />
-        </ul>
+        </div>
         <div className='md:hidden'>
           <MobileDrawer className="" />
         </div>

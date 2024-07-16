@@ -22,7 +22,7 @@ export default function Footer() {
              © 2024 Volunteer Today. - An FOYM Template 
             </p>
             <p className="text-xs text-neutral-800 mt-8 sm:mt-0">
-            Use this template for free on <a href="https://www.foym.org" className="text-blue-700 hover:underline">foym.org</a>
+            Use this template for free on <a href="https://www.foym.org" className="text-blue-700 underline">foym.org</a>
             </p>
           </div>
         </div>
